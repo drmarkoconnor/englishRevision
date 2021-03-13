@@ -17,7 +17,7 @@ const btnStart = document.querySelector("#btnStart");
 const banner = document.querySelector("#banner");
 
 // COUNTER FOR QUESTIONS ANSWERED IS BADGE INSIDE BTNSTART
-const badge = document.querySelector("span");
+const badge = document.querySelector("#qCount");
 let qAsked = 0;
 
 // AXIOS SIMPLIFIES FETCH STATEMENTS AND DATA HANDLING
