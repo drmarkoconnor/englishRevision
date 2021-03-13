@@ -14,81 +14,57 @@
   </head>
   <body>
     <div class="container mx-auto mt-5 row">
-      <p
+      <div
         id="banner"
-        class="display-6 bg-success text-center col-md-9 mx-auto text-white"
-      ></p>
-      <div class="card">
-        <div class="card-body">
-          <div class="col-md-8"></div>
-          <h5 class="card-title mx-auto col-md-9 display-6">
-            Charlotte's Cheesy English Motivator
-          </h5>
-          <p class="card-text col-md-9 mx-auto fs-5">
-            Click or press the enter key - Watch out for the random cheesy
-            inspirational message after every 10 questions completed!
-          </p>
-          <div class="row">
-            <div class="col-md-4 mx-auto">
-              <button
-                class="btn btn-lg mb-3 mx-auto text-white bg-success shadow-lg"
-                id="btnStart"
-              >
-                Start Quiz
-              </button>
-            </div>
+        class="display-6 bg-success text-center mx-auto text-white"
+      ></div>
+      <div id="infoCard" class="card m-3 col-md-9 mx-auto">
+        <div class="card-body text-center">
+          <div>
+            <h5 class="card-title text-danger fw-bold display-6 mb-3">
+              Charlotte's Cheesy English Motivator
+            </h5>
+            <p class="card-text mx-auto">
+              <span class="fw-bold">Click</span> ( or press the
+              <span class="fw-bold">enter</span> key if on a pc ) to start -
+              Watch out for the random cheesy inspirational message after every
+              10 questions completed! You deserve it girlfriend! This message
+              self destructs on starting the quiz.
+            </p>
           </div>
         </div>
       </div>
-      <!-- <header class="display-3 text-center mb-3"></header> -->
-      <!-- <div class="row"></div> -->
-
-      <div
-        style="width: 100%; max-height: 50vh"
-        class="card mx-auto shadow-lg bg-dark text-white fs-3 mb-3"
-      >
-        <div class="row g-0">
-          <div class="col-md-3">
-            <img
-              style="width: 100%; max-height: 25vh"
-              class="img-fluid d-none d-md-block"
-              src="q.jpg"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-9">
-            <div class="card-body">
-              <h5 id="qLabel" class="card-title">
-                Question : <span id="qCount" class="badge bg-danger">0</span>
-              </h5>
-              <p id="question" class="card-text p-4 mt-4">
-                The Question will appear here...
-              </p>
-            </div>
-          </div>
+      <div>
+        <div class="row">
+          <button
+            class="btn btn-lg m-2 p-2 mx-auto col-6 text-white bg-success shadow-lg"
+            id="btnStart"
+          >
+            Start Quiz
+          </button>
         </div>
       </div>
 
-      <div
-        style="width: 100%; max-height: 50vh"
-        class="card mx-auto shadow-lg bg-dark text-white fs-3 mb-3"
-      >
-        <div class="row g-0">
-          <div class="col-md-3">
-            <img
-              style="width: 100%; max-height: 25vh"
-              class="img-fluid d-none d-md-block"
-              src="heart.jpg"
-              alt="..."
-            />
+      <div class="row">
+        <div class="card col-9 mx-auto shadow-lg bg-dark text-white fs-3 mb-3">
+          <div class="card-body text-center">
+            <h5 id="qLabel" class="card-title">
+              Question : <span id="qCount" class="badge bg-danger">0</span>
+            </h5>
+            <p id="question" class="card-text p-4">
+              The Question will appear here...
+            </p>
           </div>
-          <div class="col-md-9">
-            <div class="card-body">
-              <h5 class="card-title">Answer</h5>
-              <p id="answer" class="card-text p-4 mt-4">
-                The answer will appear here ...
-              </p>
-            </div>
+        </div>
+
+        <div
+          class="col-9 card text-center mx-auto shadow-lg bg-dark text-white fs-3"
+        >
+          <div class="card-body">
+            <h5 class="card-title">Answer</h5>
+            <p id="answer" class="card-text p-4 mt-4">
+              The answer will appear here ...
+            </p>
           </div>
         </div>
       </div>

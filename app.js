@@ -4,6 +4,7 @@
 // VARIABLES
 
 // QUESTION AND ANSWER PARAGRAPHS INSIDE CARD ELEMENTS
+const infoCard = document.querySelector("#infoCard");
 const question = document.querySelector("#question");
 const answer = document.querySelector("#answer");
 
@@ -122,6 +123,7 @@ function btnSwitchers() {
   switch (btnStart.innerText) {
     case "Start Quiz":
       banner.textContent = "";
+      infoCard.classList.add("d-none");
       updateBadge();
       returnRandQ();
       btnStart.textContent = "Show Answer";
