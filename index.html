@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charlotte's English Motivator'</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mx-auto mt-5 row">
+      <p
+        id="banner"
+        class="display-6 bg-success text-center col-md-9 mx-auto text-white"
+      ></p>
+      <div class="card">
+        <div class="card-body">
+          <div class="col-md-8"></div>
+          <h5 class="card-title mx-auto col-md-9 display-6">
+            Charlotte's Cheesy English Motivator
+          </h5>
+          <p class="card-text col-md-9 mx-auto fs-5">
+            Click or press the enter key - Watch out for the random cheesy
+            inspirational message after every 10 questions completed!
+          </p>
+          <div class="row">
+            <div class="col-md-4 mx-auto">
+              <button
+                class="btn btn-lg mb-3 mx-auto text-white bg-success shadow-lg"
+                id="btnStart"
+              >
+                Start Quiz
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <header class="display-3 text-center mb-3"></header> -->
+      <!-- <div class="row"></div> -->
+
+      <div
+        style="width: 100%; max-height: 25vh"
+        class="card mx-auto shadow-lg bg-dark text-white fs-3 mb-3"
+      >
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img
+              style="width: 100%; max-height: 25vh"
+              class="img-fluid d-none d-md-block"
+              src="/q.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 id="qLabel" class="card-title">
+                Question : <span id="qCount" class="badge bg-danger">0</span>
+              </h5>
+              <p id="question" class="card-text p-4 mt-4">
+                The Question will appear here...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="width: 100%; max-height: 25vh"
+        class="card mx-auto shadow-lg bg-dark text-white fs-3 mb-3"
+      >
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img
+              style="width: 100%; max-height: 25vh"
+              class="img-fluid d-none d-md-block"
+              src="/heart.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Answer</h5>
+              <p id="answer" class="card-text p-4 mt-4">
+                The answer will appear here ...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end container above -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"
+      integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

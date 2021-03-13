@@ -1,0 +1,778 @@
+[
+ {
+   "front": "Phoneme",
+   "back": "the basic unit of sound"
+ },
+ {
+   "front": "Diphthong",
+   "back": "a vowel sound that is the combination of two separate sounds where a speaker glides from one to another"
+ },
+ {
+   "front": "Voicing",
+   "back": "the act of the vocal cords either vibrating voiced or not vibrating unvoiced in the\nproduction of a consonant sound"
+ },
+ {
+   "front": "Place of articulation",
+   "back": "the position in the mouth where a consonant sound is produced"
+ },
+ {
+   "front": "Manner of articulation",
+   "back": "the extent to which airflow is interrupted by parts of the mouth in the production of consonant sounds"
+ },
+ {
+   "front": "Syllable",
+   "back": "a sound unit with a vowel at its centre"
+ },
+ {
+   "front": "Accent",
+   "back": "a regional variety of speech that differs from other regional varieties in terms of\npronunciation"
+ },
+ {
+   "front": "Accommodation",
+   "back": "the ways that individuals adjust their speech patterns to match others"
+ },
+ {
+   "front": "Sound iconicity",
+   "back": "the use of the sound system to mirror form or meaning"
+ },
+ {
+   "front": "International Phonetic Alphabet IPA",
+   "back": "an internationally recognised system of phonetic transcription"
+ },
+ {
+   "front": "Denotative",
+   "back": "the literal meanings of words"
+ },
+ {
+   "front": "Connotative",
+   "back": "the  associated meanings of words"
+ },
+ {
+   "front": "Figurative language",
+   "back": "language used in a non-literal way in order to describe something in another’s terms eg simile or metaphor"
+ },
+ {
+   "front": "Semantic fields",
+   "back": "groups of words connected by a shared field of reference eg medicine art"
+ },
+ {
+   "front": "Synonyms",
+   "back": "words that have equivalent meanings"
+ },
+ {
+   "front": "Antonyms",
+   "back": "words that have contrasting meanings"
+ },
+ {
+   "front": "Hypernyms",
+   "back": "words that label categories eg animal this category includes for example dog cat\nand rabbit"
+ },
+ {
+   "front": "Hyponyms",
+   "back": "words that can be included in a larger more general category eg the hyponyms car bus aeroplane as a form of the hypernym transport"
+ },
+ {
+   "front": "Levels of formality",
+   "back": "vocabulary styles including slang colloquialisms taboo formal and fixed levels"
+ },
+ {
+   "front": "Occupational register",
+   "back": "a technical vocabulary associated with a particular occupation or activity"
+ },
+ {
+   "front": "Sociolect",
+   "back": "a language style associated with a particular social group"
+ },
+ {
+   "front": "Dialect",
+   "back": "a language style associated with a particular geographical region"
+ },
+ {
+   "front": "Neology",
+   "back": "the process of new word formation including the following blends compounds acronyms initialisms eponyms"
+ },
+ {
+   "front": "Semantic change",
+   "back": "the process of words changing meaning including the following narrowing broadening amelioration pejoration semantic reclamation"
+ },
+ {
+   "front": "Content",
+   "back": "What the text is about"
+ },
+ {
+   "front": "Context",
+   "back": "Things outside the text which may shape its meaning eg when it was written and who wrote it"
+ },
+ {
+   "front": "Attitudes",
+   "back": "The opinions expressed in the text"
+ },
+ {
+   "front": "Purpose",
+   "back": "The reason the text has been produced eg to entertain inform persuade etc"
+ },
+ {
+   "front": "Tone",
+   "back": "The style or voice the text is written in eg excites emotional"
+ },
+ {
+   "front": "Themes",
+   "back": "The recurring ideas and images in a text"
+ },
+ {
+   "front": "Form",
+   "back": "The structure and shape of the text"
+ },
+ {
+   "front": "Verse Type",
+   "back": "The type of poem eg sonnet lyric ballad ode narrative poem etc"
+ },
+ {
+   "front": "Stanza",
+   "back": "The division of lines in a poem also called a verse"
+ },
+ {
+   "front": "Rondo",
+   "back": "A poem with a circular structure which begins and ends similarly"
+ },
+ {
+   "front": "Petrarchan or Italian sonnet",
+   "back": "A poem of 14 lines divided into an octet and a sestet written in iambic pentameter rhyming abbaabbba cdecde sestet may vary"
+ },
+ {
+   "front": "Shakespearean or English sonnet",
+   "back": "A poem of 14 lines divided into three quatrains and a couplet written in iambic pentameter rhyming abab cdcd efef gg"
+ },
+ {
+   "front": "Volta",
+   "back": "The turning point in a sonnet"
+ },
+ {
+   "front": "Couplet",
+   "back": "A two line verse often rhyming"
+ },
+ {
+   "front": "Quatrain",
+   "back": "A four-line verse"
+ },
+ {
+   "front": "Sestet",
+   "back": "A six-line verse"
+ },
+ {
+   "front": "Octet",
+   "back": "An eight line verse"
+ },
+ {
+   "front": "Syllable",
+   "back": "The beats or rhythm in a line of verse"
+ },
+ {
+   "front": "Alternate rhyme",
+   "back": "Lines of poetry where the rhyme is on every other line abab"
+ },
+ {
+   "front": "Internal rhyme",
+   "back": "Where the rhyming sound occurs within a line of verse"
+ },
+ {
+   "front": "Eye rhyme",
+   "back": "Where the rhyme looks like it should rhyme but the sound is not exactly the same"
+ },
+ {
+   "front": "Enjambment",
+   "back": "Run-on lines"
+ },
+ {
+   "front": "Caesura",
+   "back": "A mid-line pause"
+ },
+ {
+   "front": "Stress",
+   "back": "The exaggerated phoneme in any particular word"
+ },
+ {
+   "front": "Iambic",
+   "back": "A unit of poetic meter containing one unstressed syllable followed by one stressed syllable -/"
+ },
+ {
+   "front": "Trochee",
+   "back": "A unit of poetic meter containing one stressed syllable followed by one unstressed syllable /-"
+ },
+ {
+   "front": "Spondee",
+   "back": "A unit of poetic meter containing two stressed syllables //"
+ },
+ {
+   "front": "Dactyl",
+   "back": "A unit of poetic meter containing one stressed syllable followed by two unstressed syllable /--"
+ },
+ {
+   "front": "Anapest",
+   "back": "A unit of poetic meter containing two unstressed syllables followed by a stressed syllable --/"
+ },
+ {
+   "front": "Trimeter",
+   "back": "A unit of poetic meter containing three feet 6 syllables in total"
+ },
+ {
+   "front": "Tetrameter",
+   "back": "A unit of poetic meter containing four feet 68syllables in total"
+ },
+ {
+   "front": "Pentameter",
+   "back": "A unit of poetic meter containing five feet 10 syllables in total"
+ },
+ {
+   "front": "Mode of address",
+   "back": "The point of view of the text ie first second or third person"
+ },
+ {
+   "front": "Syntax",
+   "back": "The study of the relationship between words in a sentences"
+ },
+ {
+   "front": "Sentence mood",
+   "back": "The mood of the sentence often clarified by punctuation"
+ },
+ {
+   "front": "Imperative mood",
+   "back": "A mood that expresses a command"
+ },
+ {
+   "front": "Exclamatory mood",
+   "back": "A mood that expresses strong emotions"
+ },
+ {
+   "front": "Declarative mood",
+   "back": "A mood used to express a statement"
+ },
+ {
+   "front": "Interrogative mood",
+   "back": "A mood expressing a question"
+ },
+ {
+   "front": "Phrase",
+   "back": "A group of words that has no finite verb except for a verb phrase eg noun phrase ‘the green tree’"
+ },
+ {
+   "front": "Clause",
+   "back": "A group of words usually with a finite verb which is structurally larger than a phrase"
+ },
+ {
+   "front": "Independent main clause",
+   "back": "The group of words which carries the core meaning of the sentence"
+ },
+ {
+   "front": "Dependent or subordinate clause",
+   "back": "A group of words which add extra information to the independent main clause"
+ },
+ {
+   "front": "Simple sentence",
+   "back": "A independent main clause"
+ },
+ {
+   "front": "Compound sentence",
+   "back": "A sentence made up of at least two main clauses joined together by a co-ordinating conjunction"
+ },
+ {
+   "front": "Complex sentence",
+   "back": "A sentence made up of one main and one or more subordinate or dependent clauses"
+ },
+ {
+   "front": "Parallelism",
+   "back": "The patterning of pairs of sounds words or structures to create a sense of balance"
+ },
+ {
+   "front": "foregrounding",
+   "back": "A change in the structure of the sentence to place emphasis on an opening sentence element"
+ },
+ {
+   "front": "End-focus",
+   "back": "A change in the structure of the sentence to place emphasis on a closing sentence element"
+ },
+ {
+   "front": "Syndetic listing",
+   "back": "Using conjunctions to join clauses"
+ },
+ {
+   "front": "Asyndetic listing",
+   "back": "The omission of co-ordinating conjunctions as a feature of rhetorical style"
+ },
+ {
+   "front": "Juxtaposition",
+   "back": "To place two or more things side by side"
+ },
+ {
+   "front": "Oxymoron",
+   "back": "The use of apparently contradictory words in a phrase"
+ },
+ {
+   "front": "Tripling",
+   "back": "Listing of three items"
+ },
+ {
+   "front": "Repetition",
+   "back": "Saying the same thing more than once"
+ },
+ {
+   "front": "Active voice",
+   "back": "A grammatical structure in which the subject is the actor of the sentence eg the dog eats the bone"
+ },
+ {
+   "front": "Passive voice",
+   "back": "A grammatical structure in which the subject and object can change places in order to alter the focus of a sentence eg the bone was eaten by the dog"
+ },
+ {
+   "front": "Ellipsis",
+   "back": "The omission of part of a sentence"
+ },
+ {
+   "front": "Syntax inversion",
+   "back": "The deliberate alteration of the structure of words in a sentence"
+ },
+ {
+   "front": "Lexis",
+   "back": "The term used to describe the vocabulary of a language"
+ },
+ {
+   "front": "Noun",
+   "back": "A naming word"
+ },
+ {
+   "front": "Common/concret e noun",
+   "back": "A name for every day objects"
+ },
+ {
+   "front": "Proper nouns",
+   "back": "A name of a distinctive person place or other unique reference"
+ },
+ {
+   "front": "Collective noun",
+   "back": "A name that refers to a group of people animals or things"
+ },
+ {
+   "front": "Abstract noun",
+   "back": "A name to describe things that have no physical qualities"
+ },
+ {
+   "front": "Verbs",
+   "back": "Words that express states actions or processes"
+ },
+ {
+   "front": "Dynamic verbs",
+   "back": "A verb that expresses an action rather than a state"
+ },
+ {
+   "front": "Stative verbs",
+   "back": "Verbs that express states of being or processes"
+ },
+ {
+   "front": "Auxiliary / Modal verbs",
+   "back": "A verb that precedes another verb eg I can go"
+ },
+ {
+   "front": "Adjective",
+   "back": "A word that modifies a noun or pronoun"
+ },
+ {
+   "front": "Adverb",
+   "back": "A word that modifies verbs adverbs adjectives conjunctions and prepositions"
+ },
+ {
+   "front": "Pronoun",
+   "back": "A word that replaces a noun"
+ },
+ {
+   "front": "Co-ordinating conjunction",
+   "back": "A word that joins elements of equal rank and or but"
+ },
+ {
+   "front": "Subordinating conjunction",
+   "back": "A conjunction used to introduce a subordinate clause because while until"
+ },
+ {
+   "front": "Preposition",
+   "back": "A word that shows relationships between nouns or pronouns eg on"
+ },
+ {
+   "front": "Definite article",
+   "back": "The"
+ },
+ {
+   "front": "Indefinite article",
+   "back": "A"
+ },
+ {
+   "front": "Lexical set",
+   "back": "A group of words joined by similarities"
+ },
+ {
+   "front": "Connotations",
+   "back": "The associations attached to a word in addition to its dictionary definition"
+ },
+ {
+   "front": "Vocatives",
+   "back": "The words used to name or refer to people when talking to them"
+ },
+ {
+   "front": "Hyperbole",
+   "back": "Exaggeration used to heighten feeling and intensity"
+ },
+ {
+   "front": "Litotes",
+   "back": "A deliberate understatement"
+ },
+ {
+   "front": "Non-standard Lexis",
+   "back": "Any variety that does not conform to the standard form as used by society"
+ },
+ {
+   "front": "Archaisms",
+   "back": "A word or phrase no longer in current use"
+ },
+ {
+   "front": "Orthography",
+   "back": "A study of spelling and the ways letters are used in language"
+ },
+ {
+   "front": "Double negative",
+   "back": "A structure in which more than one negative is used"
+ },
+ {
+   "front": "Superlatives",
+   "back": "A word that emphasizes the extremes eg best worst"
+ },
+ {
+   "front": "Compound adjective",
+   "back": "An adjective made up of two words joined by a hyphen"
+ },
+ {
+   "front": "Imagery",
+   "back": "A descriptive or metaphorical use of language to create a vivid picture"
+ },
+ {
+   "front": "Simile",
+   "back": "A device which directly compares two things using like or as eg the tress swayed in the wind like dancers"
+ },
+ {
+   "front": "Metaphor",
+   "back": "A description which does not compare one thing with another but actually becomes the other eg the trees danced in the wind"
+ },
+ {
+   "front": "Personification",
+   "back": "A device in which the non-human is given personal and human qualities eg the trees danced in the wind"
+ },
+ {
+   "front": "Pathetic fallacy",
+   "back": "When the environment mirrors emotions"
+ },
+ {
+   "front": "Allusion",
+   "back": "To refer to something indirectly or metaphorically"
+ },
+ {
+   "front": "Symbolism",
+   "back": "A device in which a word or phrase represents something else"
+ },
+ {
+   "front": "Euphemism",
+   "back": "A word that replaces a term seen by society as taboo or unpleasant"
+ },
+ {
+   "front": "Conceit",
+   "back": "A deliberately elaborate metaphor"
+ },
+ {
+   "front": "Phonology",
+   "back": "The study of sound"
+ },
+ {
+   "front": "Accent",
+   "back": "A set of distinctive pronunciations that mark regional or social identity"
+ },
+ {
+   "front": "Elision",
+   "back": "The omission of sounds in connected speech"
+ },
+ {
+   "front": "Alliteration",
+   "back": "The repetition of the same sound in the initial position in a sequence of words"
+ },
+ {
+   "front": "Fricatives",
+   "back": "Sounds where air escapes through a small passage eg f v"
+ },
+ {
+   "front": "Plosives",
+   "back": "Sounds which release a sudden burst of air eg pbt"
+ },
+ {
+   "front": "Sibilants",
+   "back": "Consonant sounds articulated with a hissing sound eg sz"
+ },
+ {
+   "front": "Aspirants",
+   "back": "Sounds that denote audible breath eg h"
+ },
+ {
+   "front": "Bilabials",
+   "back": "Term used to denote sounds made with both lips eg m b"
+ },
+ {
+   "front": "Nasals",
+   "back": "A term used to describe consonants produced with an open nasal passage eg mn"
+ },
+ {
+   "front": "Assonance",
+   "back": "A repetition of the same or similar vowel sounds"
+ },
+ {
+   "front": "Onomatopoeia",
+   "back": "The term used to denote words that imitate sounds"
+ },
+ {
+   "front": "IPA",
+   "back": "The International Phonetic Alphabet used to classify the sounds of language"
+ },
+ {
+   "front": "Discourse",
+   "back": "The study of spoken language"
+ },
+ {
+   "front": "Prosodic features",
+   "back": "The use of pitch volume pace and rhythm to draw attention to key elements of spoken language"
+ },
+ {
+   "front": "Paralinguistics",
+   "back": "Non-verbal communication using gestures posture and facial expressions"
+ },
+ {
+   "front": "Deictic",
+   "back": "Terms used to denote words that rely on the context to be understood eg pass me that there"
+ },
+ {
+   "front": "Fillers",
+   "back": "Words used when hesitating in speech um er"
+ },
+ {
+   "front": "Comment clause",
+   "back": "A commonly occurring phrase in speech eg you know"
+ },
+ {
+   "front": "Dialogue",
+   "back": "Language interaction with two or more participants"
+ },
+ {
+   "front": "Intonation",
+   "back": "The quality or tone of the voice in speech"
+ },
+ {
+   "front": "Received Pronunciation RP",
+   "back": "An English accent which has a high social status and is not connected to a specific region"
+ },
+ {
+   "front": "Repair",
+   "back": "The correction of a mistake or misunderstanding in conversation"
+ },
+ {
+   "front": "Tag question",
+   "back": "An interrogative structure attached to the end of a sentence which expects a reply eg isn’t it"
+ },
+ {
+   "front": "Transcription",
+   "back": "A written record of spoken language which can use symbols and markings to illustrate the distinctive nature of speech"
+ },
+ {
+   "front": "Turn-taking",
+   "back": "The organization of speakers’ contributions to a conversation"
+ },
+ {
+   "front": "Utterance",
+   "back": "A stretch of spoken language used in stead of ‘sentence’ when discussing spoken language"
+ },
+ {
+   "front": "Trudgill",
+   "back": "women more likely to use prestigious pronunciation then men"
+ },
+ {
+   "front": "Lakoff",
+   "back": "female language seen as different to established male norm ; female language less assertive"
+ },
+ {
+   "front": "Zimmerman & West",
+   "back": "men interrupt more than women in mixed sex convo but men dont interrupt each other; men assert topic control/conversational power"
+ },
+ {
+   "front": "Spender",
+   "back": "men dominant in convo because dominant in society; social conditioning makes women polite & respectful towards men; their behaviour is less confident and assertive because they occupy a less powerful place in society; women framed negatively in language"
+ },
+ {
+   "front": "Fishman",
+   "back": "convo between men and women sometimes fails because of how men respond/dont respond; men speak twice as long in mixed convo; challenges Lakoff women use questions as a power tool in order to continue convo"
+ },
+ {
+   "front": "Cameron",
+   "back": "women have been taught proper ways to speak; verbal hygiene"
+ },
+ {
+   "front": "Tannen",
+   "back": "women and men have different speech cultures; report talk vs rapport talk"
+ },
+ {
+   "front": "Channell",
+   "back": "vague language; allows speakers to sound relaxed and informal"
+ },
+ {
+   "front": "OBarr & Atkins",
+   "back": "language differs on situation specific authority or power NOT gender; women who use low freq of womens lang traits have higher status; hesitancy is about power"
+ },
+ {
+   "front": "Holmes",
+   "back": "women more polite than men; women are more likely to compliment one another than men"
+ },
+ {
+   "front": "Pilkington",
+   "back": "women talk to affirm solidarity and maintain relationships; they focus on feelings personal anecdotes & relationships; agree frequently; men find long pauses or thinking time acceptable; frequently disagree and challenge one another - verbal sparring"
+ },
+ {
+   "front": "Coates",
+   "back": "all female convo falls into 4 categories housetalk; scandal; bitching; chatting - builds on Tannens ideas"
+ },
+ {
+   "front": "Miller & Swift",
+   "back": "practical ways of improving gender equality - use of pronoun them instead of he or she to replace gender bias; replacing marked terms such as job titles with neutral replacements"
+ },
+ {
+   "front": "Fairclough",
+   "back": "political correctness is not enough - the need to change society and what it thinks of minority groups; stop arguing about how chairman is sexist and instead understand the issue is that women are underrepresented in parliament"
+ },
+ {
+   "front": "Stanley",
+   "back": "220 terms to describe promiscuous female whereas only 20 to describe men most of which feminise men; insults for men are less taboo and less sexually insulting"
+ },
+ {
+   "front": "Verbs",
+   "back": "Words that show action or state of being They also indicate time Present Past Future"
+ },
+ {
+   "front": "Rhetorical question",
+   "back": "A question asked merely for rhetorical effect and not requiring an answer"
+ },
+ {
+   "front": "Alliteration",
+   "back": "the repetition of consonant sounds at the beginning of words"
+ },
+ {
+   "front": "Imperative verbs",
+   "back": "verbs that give orders"
+ },
+ {
+   "front": "Emotive language",
+   "back": "Deliberately strong words used to provoke emotion in the reader"
+ },
+ {
+   "front": "Adjectives",
+   "back": "word used to modify or describe a noun or pronoun such as happy sad or pretty"
+ },
+ {
+   "front": "Hyperbole",
+   "back": "exaggerated statements or claims not meant to be taken literally"
+ },
+ {
+   "front": "Juxtaposition",
+   "back": "Placement of two things closely together to emphasize comparisons or contrasts"
+ },
+ {
+   "front": "Statistics",
+   "back": "numerical facts"
+ },
+ {
+   "front": "Direct address",
+   "back": "Referring directly to someone or something"
+ },
+ {
+   "front": "Adverbs",
+   "back": "A word that modifies a verb an adjective or another adverb"
+ },
+ {
+   "front": "Comparative adjectives",
+   "back": "are used to make a comparison between nouns or pronouns eg greater bigger larger"
+ },
+ {
+   "front": "Sibilance",
+   "back": "A type of alliteration in which the s sound is repeated"
+ },
+ {
+   "front": "Colloquialism",
+   "back": "the use of informal words phrases or even slang in a piece of writing"
+ },
+ {
+   "front": "Facts",
+   "back": "something that actually exists; reality; truth"
+ },
+ {
+   "front": "Superlatives",
+   "back": "the exaggerated or hyperbolical expression praise words like best"
+ },
+ {
+   "front": "Contractions",
+   "back": "Combining two words into one"
+ },
+ {
+   "front": "Oxymoron",
+   "back": "A figure of speech that combines opposite or contradictory terms in a brief phrase"
+ },
+ {
+   "front": "Assonance",
+   "back": "the repetition of vowel sounds eg the rain in Spain falls mainly in the plains"
+ },
+ {
+   "front": "Synonym",
+   "back": "A word that means the same as another word"
+ },
+ {
+   "front": "Personification",
+   "back": "the giving of human qualities to an animal object or idea"
+ },
+ {
+   "front": "Metaphor",
+   "back": "A comparison without using like or as"
+ },
+ {
+   "front": "Simile",
+   "back": "A comparison using like or as"
+ },
+ {
+   "front": "Paradox",
+   "back": "a statement that seems contradictory or absurd but is actually valid or true"
+ },
+ {
+   "front": "Pun",
+   "back": "A play on words"
+ },
+ {
+   "front": "Irony",
+   "back": "a contrast between what is expected and what actually exists or happens"
+ },
+ {
+   "front": "Repetition",
+   "back": "Repeated use of sounds words or ideas for effect and emphasis"
+ },
+ {
+   "front": "Onomatopoeia",
+   "back": "A word that imitates the sound it represents"
+ },
+ {
+   "front": "Euphemism",
+   "back": "An indirect less offensive way of saying something that is considered unpleasant"
+ },
+ {
+   "front": "Analogy",
+   "back": "A similarity or comparison between two different things or the relationship between them"
+ },
+ {
+   "front": "Anecdote",
+   "back": "a short and amusing or interesting story about a real incident or person"
+ }
+]
