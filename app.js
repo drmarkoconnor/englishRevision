@@ -7,18 +7,26 @@
 const infoCard = document.querySelector("#infoCard");
 const question = document.querySelector("#question");
 const answer = document.querySelector("#answer");
+const rightCount = document.querySelector("#rightCount");
+const wrongCount = document.querySelector("#wrongCount");
+const correctList = document.querySelector("#correctList");
+const incorrectList = document.querySelector("#incorrectList");
 
 // BUTTONS
 const btnShowAnswer = document.querySelector("#showA");
 const btnNextQuestion = document.querySelector("#nextQ");
 const btnStart = document.querySelector("#btnStart");
+const btnCorrect = document.querySelector("#btnCorrect");
+const btnIncorrect = document.querySelector("#btnIncorrect");
 
 // Jokey inspiring banner
-const banner = document.querySelector("#banner");
+// const banner = document.querySelector("#banner");
 
 // COUNTER FOR QUESTIONS ANSWERED IS BADGE INSIDE BTNSTART
 const badge = document.querySelector("#qCount");
 let qAsked = 0;
+let rightCounter = 0;
+let wrongCounter = 0;
 
 // AXIOS SIMPLIFIES FETCH STATEMENTS AND DATA HANDLING
 // NEEDS A CDN SCRIPT LINK ON HTML PAGE
@@ -38,6 +46,25 @@ addEventListener("keyup", (e) => {
     btnStart.click();
   }
 });
+// z-key x-key and associated button listeners event listeener for correct counter
+
+btnCorrect.addEventListener("click", addCorrect);
+btnIncorrect.addEventListener("click", addIncorrect);
+
+addEventListener("keyup", (e) => {
+  console.log(e.key);
+  if (e.key == "z") {
+    addCorrect();
+  }
+});
+addEventListener("keyup", (e) => {
+  console.log(e.key);
+  if (e.key == "x") {
+    addIncorrect();
+  }
+});
+// end of apostrophe listener
+
 // Text of button changes inside btnSwitchers function and used by switch statement for flow
 // which in turn changes the button text for the next iteration through
 // start quiz -> show Answer -> Next Question -> Show Answer -> Next Question
@@ -61,58 +88,57 @@ function updateBadge() {
   qAsked++;
   badge.textContent = qAsked;
 }
-function bannerQuotes() {
-  let randQuoteNum = Math.floor(Math.random() * 10) + 1;
-  switch (randQuoteNum) {
-    case 1:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> You can do it! Keep concentrating - Come on let's do it again!!!";
-      break;
-    case 2:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> Be the be you want to be - Come on let's do it again!!!";
-      break;
-    case 3:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> Don't hide the inside - let it out girl! - Come on let's do it again!!!";
-      break;
-    case 4:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> Yous ownin' these questions - wow! - Come on let's do it again!!!";
-      break;
-    case 5:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> Go girl - be the best - Come on let's do it again!!!";
-      break;
-    case 6:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> You are You: Take it, Make it, no need to Fake it - Come on let's do it again!!!";
-      break;
-    case 7:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> Smashin' it, girlfriend! - Come on let's do it again!!!";
-      break;
-    case 8:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> You're the one - number one - Come on let's do it again!!!";
-      break;
-    case 9:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> Let tomorrow be the yesterday you wanted today - Come on let's do it again!!!";
-      break;
-    case 10:
-      banner.textContent =
-        "Great Job, Charlotte! Remember  --> You did it! Now do it again!! - Come on let's do it again!!!";
+// function bannerQuotes() {
+//   let randQuoteNum = Math.floor(Math.random() * 10) + 1;
+//   switch (randQuoteNum) {
+//     case 1:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> You can do it! Keep concentrating - Come on let's do it again!!!";
+//       break;
+//     case 2:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> Be the be you want to be - Come on let's do it again!!!";
+//       break;
+//     case 3:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> Don't hide the inside - let it out girl! - Come on let's do it again!!!";
+//       break;
+//     case 4:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> Yous ownin' these questions - wow! - Come on let's do it again!!!";
+//       break;
+//     case 5:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> Go girl - be the best - Come on let's do it again!!!";
+//       break;
+//     case 6:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> You are You: Take it, Make it, no need to Fake it - Come on let's do it again!!!";
+//       break;
+//     case 7:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> Smashin' it, girlfriend! - Come on let's do it again!!!";
+//       break;
+//     case 8:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> You're the one - number one - Come on let's do it again!!!";
+//       break;
+//     case 9:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> Let tomorrow be the yesterday you wanted today - Come on let's do it again!!!";
+//       break;
+//     case 10:
+//       banner.textContent =
+//         "Great Job, Charlotte! Remember  --> You did it! Now do it again!! - Come on let's do it again!!!";
 
-      break;
-    default:
-  }
-}
+//       break;
+//     default:
+//   }
+// }
 function reset() {
-  bannerQuotes();
+  // bannerQuotes();
   btnStart.textContent = "Start Quiz";
   qAsked = 0;
-
   badge.textContent = qAsked;
   answer.textContent = "Answer will appear be here";
   answer.classList.remove("d-none");
@@ -122,7 +148,7 @@ function reset() {
 function btnSwitchers() {
   switch (btnStart.innerText) {
     case "Start Quiz":
-      banner.textContent = "";
+      // banner.textContent = "";
       infoCard.classList.add("d-none");
       updateBadge();
       returnRandQ();
@@ -144,4 +170,31 @@ function btnSwitchers() {
     default:
       console.log(btnStart.textContent);
   }
+}
+function addCorrect() {
+  if (btnStart.textContent == "Next Question") {
+    rightCounter++;
+    rightCount.textContent = rightCounter;
+    addCorrectLister();
+    btnStart.click();
+  }
+}
+function addIncorrect() {
+  if (btnStart.textContent == "Next Question") {
+    wrongCounter++;
+    wrongCount.textContent = wrongCounter;
+    addIncorrectLister();
+    btnStart.click();
+  }
+}
+function addCorrectLister() {
+  let newItem = document.createElement("li");
+  newItem.innerHTML = question.textContent;
+  correctList.appendChild(newItem);
+}
+
+function addIncorrectLister() {
+  let newItem = document.createElement("li");
+  newItem.innerHTML = question.textContent;
+  incorrectList.appendChild(newItem);
 }
