@@ -136,7 +136,6 @@ function updateBadge() {
 //   }
 // }
 function reset() {
-  // bannerQuotes();
   btnStart.textContent = "Start Quiz";
   qAsked = 0;
   badge.textContent = qAsked;
@@ -148,7 +147,6 @@ function reset() {
 function btnSwitchers() {
   switch (btnStart.innerText) {
     case "Start Quiz":
-      // banner.textContent = "";
       infoCard.classList.add("d-none");
       updateBadge();
       returnRandQ();
