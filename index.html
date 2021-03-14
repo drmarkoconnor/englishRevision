@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Charlotte's English Motivator'</title>
+    <title>JS Flashcard</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,62 +12,116 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <div class="container mx-auto mt-5 row">
-      <div
+  <body style='background-color:black'>
+    <div class="container mt-5 mx-auto row">
+      <!-- <div
         id="banner"
         class="display-6 bg-success text-center mx-auto text-white"
-      ></div>
-      <div id="infoCard" class="card m-3 col-md-9 mx-auto">
+      ></div> 
+    ABOVE BANNER IS POPULATED FROM BANNERQUOTES() FUNCTION -->
+      <div id="infoCard" class="bg-light card m-3 col-md-9 mx-auto">
         <div class="card-body text-center">
           <div>
             <h5 class="card-title text-danger fw-bold display-6 mb-3">
-              Charlotte's Cheesy English Motivator
+              Flashcard Quiz
             </h5>
             <p class="card-text mx-auto">
-              <span class="fw-bold">Click</span> ( or press the
-              <span class="fw-bold">enter</span> key if on a pc ) to start -
-              Watch out for the random cheesy inspirational message after every
-              10 questions completed! You deserve it girlfriend! This message
-              self destructs on starting the quiz.
+              <span class="fw-bold">Click</span> ( or
+              <span class="fw-bold">enter</span> ) to start and then for
+              questions and answers.
+            </p>
+            <p>
+              Use the <span class="fw-bold">apostrophe = correct</span> and
+              <span class="fw-bold">slash(\) = incorrect</span> key to score
+              correct or wrong responses
             </p>
           </div>
         </div>
       </div>
-      <div>
-        <div class="row">
-          <button
-            class="btn btn-lg m-2 p-2 mx-auto col-6 text-white bg-success shadow-lg"
-            id="btnStart"
-          >
-            Start Quiz
-          </button>
+      <!-- This space for a dashboard once quiz has started -->
+      <div  class="bg-light card m-3 col-6 mx-auto">
+        <div class="card-body text-center">
+          <div>
+            <h5 class="card-title text-success fw-bold mb-3"><button id="btnCorrect" class='btn bg-success text-white'>Correct Count ( or press z)</button> </h5>
+            <p  class="card-text mx-auto"><span id="rightCount" class="badge bg-success">0</span>
+     
+            </p>
+          </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="card col-9 mx-auto shadow-lg bg-dark text-white fs-3 mb-3">
-          <div class="card-body text-center">
-            <h5 id="qLabel" class="card-title">
-              Question : <span id="qCount" class="badge bg-danger">0</span>
+      <div  class="bg-light card m-3 col-6 mx-auto">
+        <div class="card-body text-center">
+          <div>
+            <h5 class="card-title text-danger fw-bold mb-3"><button id="btnIncorrect" class='btn bg-danger text-white'>Incorrect Count ( or press  x)</button>
+              
             </h5>
-            <p id="question" class="card-text p-4">
-              The Question will appear here...
+            <p  class="card-text mx-auto"><span id="wrongCount" class="badge bg-danger">0</span>
+      
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-auto">
+        <button
+          class="btn btn-lg col-md-6 mx-auto text-white bg-success"
+          id="btnStart"
+        >
+          Start Quiz
+        </button>
+      </div>
+<div class="card-group">
+      <div class="row mx-auto">
+        <div style="min-width: 20rem;min-height:20vh" class="card mx-auto col-md-6 bg-light text-dark m-3">
+          <div  class="card-body  text-center">
+            <h3 id="qLabel" class="card-title">
+              Question : <span id="qCount" class="badge bg-danger">0</span>
+            </h3>
+            <p id="question" class="card-text p-2 fs-4">
+              The question will appear here...
             </p>
           </div>
         </div>
 
-        <div
-          class="col-9 card text-center mx-auto shadow-lg bg-dark text-white fs-3"
-        >
-          <div class="card-body">
-            <h5 class="card-title">Answer</h5>
-            <p id="answer" class="card-text p-4 mt-4">
+        <div style="min-width: 20rem;min-height:20vh" class="col-md-6 mx-auto card bg-light text-dark m-3">
+          <div class="card-body text-center">
+            <h3 class="card-title">Answer</h3>
+            <p id="answer" class="card-text p-2 fs-4">
               The answer will appear here ...
             </p>
           </div>
         </div>
+      </div></div>
+      <!-- Dashboards below questions -->
+      
+      <div class="card-groups d-flex">
+        <div class="card col-6">
+          <div class="card-body text-success">
+            <h5 class="card-title">Correct List</h5>
+            <p class="card-text">
+               <!-- li of correct answers will get appended here  -->
+      <ol id="correctList"></ol>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><button class="btn-success">save</button> to mongo db</small>
+          </div>
+        </div>
+        <div class="card col-6">
+          <div class="card-body text-danger">
+            <h5 class="card-title">Incorrect List</h5>
+            <p class="card-text">
+              <!-- li of incorrect answers will get appended here  -->
+      <ol id="incorrectList"></ol>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><button class="btn-danger">save</button> to mongo db</small>
+          </div>
+        </div>
+       
       </div>
+      <!--  -->
     </div>
     <!-- end container above -->
 
