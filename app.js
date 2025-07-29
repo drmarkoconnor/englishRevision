@@ -13,8 +13,6 @@ const correctList = document.querySelector("#correctList");
 const incorrectList = document.querySelector("#incorrectList");
 
 // BUTTONS
-const btnShowAnswer = document.querySelector("#showA");
-const btnNextQuestion = document.querySelector("#nextQ");
 const btnStart = document.querySelector("#btnStart");
 const btnCorrect = document.querySelector("#btnCorrect");
 const btnIncorrect = document.querySelector("#btnIncorrect");
