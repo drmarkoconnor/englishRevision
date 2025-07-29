@@ -19,9 +19,6 @@ const btnStart = document.querySelector("#btnStart");
 const btnCorrect = document.querySelector("#btnCorrect");
 const btnIncorrect = document.querySelector("#btnIncorrect");
 
-// Jokey inspiring banner
-// const banner = document.querySelector("#banner");
-
 // COUNTER FOR QUESTIONS ANSWERED IS BADGE INSIDE BTNSTART
 const badge = document.querySelector("#qCount");
 let qAsked = 0;
@@ -88,53 +85,6 @@ function updateBadge() {
   qAsked++;
   badge.textContent = qAsked;
 }
-// function bannerQuotes() {
-//   let randQuoteNum = Math.floor(Math.random() * 10) + 1;
-//   switch (randQuoteNum) {
-//     case 1:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> You can do it! Keep concentrating - Come on let's do it again!!!";
-//       break;
-//     case 2:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> Be the be you want to be - Come on let's do it again!!!";
-//       break;
-//     case 3:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> Don't hide the inside - let it out girl! - Come on let's do it again!!!";
-//       break;
-//     case 4:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> Yous ownin' these questions - wow! - Come on let's do it again!!!";
-//       break;
-//     case 5:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> Go girl - be the best - Come on let's do it again!!!";
-//       break;
-//     case 6:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> You are You: Take it, Make it, no need to Fake it - Come on let's do it again!!!";
-//       break;
-//     case 7:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> Smashin' it, girlfriend! - Come on let's do it again!!!";
-//       break;
-//     case 8:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> You're the one - number one - Come on let's do it again!!!";
-//       break;
-//     case 9:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> Let tomorrow be the yesterday you wanted today - Come on let's do it again!!!";
-//       break;
-//     case 10:
-//       banner.textContent =
-//         "Great Job, Charlotte! Remember  --> You did it! Now do it again!! - Come on let's do it again!!!";
-
-//       break;
-//     default:
-//   }
-// }
 function reset() {
   btnStart.textContent = "Start Quiz";
   qAsked = 0;
